@@ -1,0 +1,49 @@
+/*Animation----------*/
+
+@-webkit-keyframes spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.rotate:hover {
+	-webkit-animation: spin 5s infinite;
+	animation: spin 5s infinite;
+}
+
+/*Scale----------*/
+
+@-webkit-keyframes enlarge {
+	from {
+		transform: scale(1);
+	}
+	to {
+		transform: scale(1.9);
+	}
+}
+
+@keyframes enlarge {
+	from {
+		transform: scale(1);
+	}
+	to {
+		transform: scale(1.9);
+	}
+}
+
+.scale:hover {
+	-webkit-animation: enlarge 10s infinite;
+	animation: enlarge 10s infinite;
+}
